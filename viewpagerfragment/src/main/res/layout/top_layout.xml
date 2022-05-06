@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="55dp"
+    android:background="@color/white"
+    android:gravity="center"
+    android:layout_marginTop="5dp"
+    >
+    <LinearLayout
+        android:id="@+id/tab_ressource"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:layout_gravity="center"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:layout_marginTop="5dp"
+        >
+        <ImageView
+            android:id="@+id/tab_ressource_img"
+            android:layout_width="72dp"
+            android:layout_height="32dp"
+            android:background="@drawable/tab_ressource"
+            />
+
+        <TextView
+            android:id="@+id/text_ressource"
+            android:layout_width="72dp"
+            android:layout_height="32dp"
+            android:text="Ressource"
+            android:gravity="center"
+            />
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/tab_depense"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:layout_gravity="center"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:layout_marginTop="5dp"
+        >
+        <ImageView
+            android:id="@+id/tab_depense_img"
+            android:layout_width="72dp"
+            android:layout_height="32dp"
+            android:background="@drawable/tab_depense"
+            />
+
+        <TextView
+            android:id="@+id/text_depense"
+            android:layout_width="72dp"
+            android:layout_height="32dp"
+            android:text="Depense"
+            android:gravity="center"
+            />
+    </LinearLayout>
+
+
+</LinearLayout>

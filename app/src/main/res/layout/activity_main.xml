@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@drawable/fleur"
+    tools:context=".MainActivity">
+
+
+    <Button
+        android:id="@+id/inscrire"
+        android:layout_width="240dp"
+        android:layout_height="wrap_content"
+        android:text="Inscrire"
+        android:textSize="30dp"
+        android:background="@color/teal_200"
+        />
+
+    <Button
+        android:id="@+id/connecter"
+        android:layout_width="240dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:text="Connecter"
+        android:textSize="30dp"
+        android:background="@color/teal_200"
+        />
+</LinearLayout>
